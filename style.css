@@ -15,41 +15,79 @@
 
 /* Root utility */
 :root{
-    --debug-border: 1px solid black
+    
 }
+/* Fine root utility */
 
 body{
     font-family: 'PT Sans', sans-serif;
 }
 
 header{
-    height: 950px;
+    height: 2200px;
 }
 
 .container-lg{
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .container-sm{
-    width: 650px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .debug{
-    border: var(--debug-border);
+    border: 1px solid black;
+}
+
+.d-flex{
+    display: flex;
 }
 
 /* section topbar */
 .topbar{
     height: 75px;
     background-color: var(--colore-primario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar .topbar-dx ul{
+    display: flex; 
+    display: none;  
+}
+
+.topbar-dx{
+    display: flex;   
 }
 
 /* section jumbotron */
 .jumbotron{
-    height: 100%;
+    height: 875px;
 }
+
+.box-jumbotron{
+    height: 2150px;
+    background-color: aqua;
+    width: 315px;
+}
+
+.box-jumbotron-top{
+    width: 100%;
+    height: 988px;
+    margin: 1px solid black;
+}
+
+.box-jumbotron-bottom{
+    width: 100%;
+    height: 1125px;
+    margin: 1px solid black;
+
+}
+
+
 
 /* section strategy */
 .strategy{
