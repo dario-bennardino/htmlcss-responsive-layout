@@ -8,7 +8,8 @@
 :root{
     --colore-primario: #0383FD;  
     --colore-secondario: #9792E5;  
-    --colore-terziario: #B6DDFF;       
+    --colore-terziario: #B6DDFF;
+    --colore-footer: #333333;       
 }
 /* Fine root colori */
 
@@ -48,7 +49,6 @@ header{
 /* section jumbotron */
 .jumbotron{
     height: 100%;
-    background-color: green;
 }
 
 /* section strategy */
@@ -56,4 +56,38 @@ header{
     background-color: var(--colore-secondario);
     height: 930px;
 }
+
+/* section testimonials */
+.testimonials{
+    height: 1330px;
+}
+
+/* section benefits */
+.benefits{
+    height: 1120px;
+    background-color: var(--colore-secondario);
+}
+
+/* section about us */
+.about-us{
+    height: 880px;
+}
+
+/* footer */
+footer{
+    height: 850px;
+}
+
+/* section top-footer */
+.top-footer{
+    height: 625px;
+    background-color: var(--colore-secondario);
+}
+
+/* section bottom-footer */
+.bottom-footer{
+    height: 225px;
+    background-color: var(--colore-footer);
+}
+
 
