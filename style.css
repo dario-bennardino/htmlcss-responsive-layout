@@ -45,16 +45,9 @@ header{
     display: flex;
 }
 
-.col-md{
-    height: 605px;
-    width: 100%;
-    background-color: var(--colore-terziario);
-}
-
 .col-sm{
     height: 358px;
     width: 100%;
-    background-color: var(--colore-terziario);
 }
 
 .col-smd{
@@ -62,13 +55,19 @@ header{
     height: 520px;
 }
 
+.col-md{
+    height: 605px;
+    width: 100%;
+}
+
 .col-lg{
     width: 100%;
     height: 700px;
 }
 
-.col-bg{
+.col-xlg{
     width: 100%;
+    height: 980px;
     
 }
 
@@ -130,6 +129,11 @@ header{
 .benefits{
     height: 1120px;
     background-color: var(--colore-secondario);
+    text-align: center;
+}
+
+.benefits h2{
+    color: white;
 }
 
 /* section about us */
