@@ -125,7 +125,7 @@ header{
 
 /* section testimonials */
 .testimonials{
-    height: 1330px;
+
 }
 
 /* section benefits */
@@ -162,7 +162,7 @@ footer{
 
 /* Soluzione responsive */
 
-/* versione desktop */
+/* versione tablet */
 
 @media screen and (min-width: 768px) {
     .col-sm{
@@ -211,8 +211,54 @@ footer{
         height: 435px;
     }
 
+    .testimonials .col-smd{
+        height: 280px;
+        width: 100%;
+    }
+
+    .testimonials .col-sm{
+        height: 225px;
+        width: 100%;
+    }
+
+    .benefits .col-sm-benefits{
+        height: 420px;
+        width: 50%;
+    }
+
+    .box-benefits{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-about-us{
+        display: flex;
+    }
+
+    .box-about-us .col-xlg{
+        width: 60%;
+    
+    }
+
+    .box-about-us .col-smd{
+        width: 40%;
+        height: 980px;
+    }
+}
+
+/* versione desktop */
+@media screen and (min-width: 1200px) {
+    .topbar .topbar-dx ul{    
+        display: block;  
+    }
+
+    .container-lg{
+        width: 1140px;
+    }
+
+    .container-sm{
+        width: 700px;
+    }
 
 
-
- 
 }
