@@ -4,6 +4,56 @@
     box-sizing: border-box;
 }
 
+/* Root colori */
+:root{
+    --colore-primario: #0383FD;  
+    --colore-secondario: #9792E5;  
+    --colore-terziario: #B6DDFF;       
+}
+/* Fine root colori */
+
+/* Root utility */
+:root{
+    --debug-border: 1px solid black
+}
+
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+header{
+    height: 950px;
+}
+
+.container-lg{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container-sm{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.debug{
+    border: var(--debug-border);
+}
+
+/* section topbar */
+.topbar{
+    height: 75px;
+    background-color: var(--colore-primario);
+}
+
+/* section jumbotron */
+.jumbotron{
+    height: 100%;
+    background-color: green;
+}
+
+/* section strategy */
+.strategy{
+    background-color: var(--colore-secondario);
+    height: 930px;
+}
+
