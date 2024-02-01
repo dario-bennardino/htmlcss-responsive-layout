@@ -74,6 +74,7 @@ header{
     width: 315px;
 }
 
+/* jumbotron-top */
 .box-jumbotron-top{
     width: 100%;
     height: 988px;
@@ -90,6 +91,7 @@ header{
     width: 100%;
 }
 
+/* jumbotron-buttom */
 .box-jumbotron-bottom{
     width: 100%;
     height: 1125px;
