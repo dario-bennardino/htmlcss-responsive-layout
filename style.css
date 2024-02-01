@@ -45,6 +45,33 @@ header{
     display: flex;
 }
 
+.col-md{
+    height: 605px;
+    width: 100%;
+    background-color: var(--colore-terziario);
+}
+
+.col-sm{
+    height: 358px;
+    width: 100%;
+    background-color: var(--colore-terziario);
+}
+
+.col-smd{
+    width: 100%;
+    height: 520px;
+}
+
+.col-lg{
+    width: 100%;
+    height: 700px;
+}
+
+.col-bg{
+    width: 100%;
+    
+}
+
 /* section topbar */
 .topbar{
     height: 75px;
@@ -70,8 +97,7 @@ header{
 
 .box-jumbotron{
     height: 2150px;
-    background-color: aqua;
-    width: 315px;
+    width: 100%;
 }
 
 /* jumbotron-top */
@@ -81,15 +107,7 @@ header{
     margin: 1px solid black;
 }
 
-.card-big-jumbotron-top{
-    height: 60%;
-    width: 100%;
-}
 
-.card-sm-jumbotron-top{
-    height: 40%;
-    width: 100%;
-}
 
 /* jumbotron-buttom */
 .box-jumbotron-bottom{
@@ -98,17 +116,9 @@ header{
     margin: 1px solid black;
 }
 
-.card-sm-jumbotron-bottom{
-    height: 33%;
-    width: 100%;
-}
-
-
-
 /* section strategy */
 .strategy{
     background-color: var(--colore-secondario);
-    height: 930px;
 }
 
 /* section testimonials */
