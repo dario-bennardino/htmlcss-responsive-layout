@@ -24,7 +24,7 @@ body{
 }
 
 header{
-    height: 2200px;
+
 }
 
 .container-lg{
@@ -48,6 +48,11 @@ header{
 .col-sm{
     height: 358px;
     width: 100%;
+}
+
+.col-sm-benefits{
+    width: 100%;
+    height: 400px;
 }
 
 .col-smd{
@@ -91,18 +96,17 @@ header{
 
 /* section jumbotron */
 .jumbotron{
-    height: 2150px;
+    /* height: 2150px; */
 }
 
 .box-jumbotron{
-    height: 2150px;
+    /* height: 2150px; */
     width: 100%;
 }
 
 /* jumbotron-top */
 .box-jumbotron-top{
     width: 100%;
-    height: 988px;
     margin: 1px solid black;
 }
 
@@ -111,7 +115,6 @@ header{
 /* jumbotron-buttom */
 .box-jumbotron-bottom{
     width: 100%;
-    height: 1125px;
     margin: 1px solid black;
 }
 
@@ -127,7 +130,6 @@ header{
 
 /* section benefits */
 .benefits{
-    height: 1120px;
     background-color: var(--colore-secondario);
     text-align: center;
 }
@@ -138,7 +140,7 @@ header{
 
 /* section about us */
 .about-us{
-    height: 880px;
+
 }
 
 /* footer */
@@ -158,4 +160,59 @@ footer{
     background-color: var(--colore-footer);
 }
 
+/* Soluzione responsive */
 
+/* versione desktop */
+
+@media screen and (min-width: 768px) {
+    .col-sm{
+        height: 358px;
+        width: 30%;
+    }
+    
+    .col-smd{
+        width: 50%;
+        height: 520px;
+    }
+    
+    .col-md{
+        height: 605px;
+        width: 50%;
+    }
+    
+    .col-lg{
+        
+    }
+    
+    .col-xlg{
+        width: 50%;
+        height: 980px;   
+    }
+
+    .box-jumbotron-top{
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-jumbotron-bottom{
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-jumbotron-top .col-md{
+        height: 560px;
+    }
+
+    .box-jumbotron-top .col-sm{
+        height: 560px;
+    }
+
+    .box-jumbotron-bottom .col-sm{
+        height: 435px;
+    }
+
+
+
+
+ 
+}
