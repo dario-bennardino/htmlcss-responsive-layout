@@ -25,6 +25,9 @@ body{
 
 header{
     background-color: var(--colore-primario);
+    height: 75px;
+    display: flex;
+    align-items: center;
 }
 
 .container{
@@ -84,22 +87,35 @@ row,
 
 /* section topbar */
 .topbar{
-    height: 75px;
-    
+    /* height: 75px;  */
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
 }
 
 .topbar .topbar-dx ul{
     display: flex; 
+    color: white;
+    list-style: none;
     display: none;  
 }
+
+
 
 .topbar-dx{
     display: flex;   
 }
 
+.topbar-sx{
+    display: flex;
+    align-items: center;
+}
+
+.tasto-menu{
+    color: white;
+}
 /* section demo */
 
 
@@ -216,6 +232,19 @@ footer{
     .aboutus .col:last-child{
         width: 30%;
     }
+
+    .topbar .topbar-dx ul{ 
+        display: block;  
+        display: flex; 
+    }
+
+    .topbar  .topbar-dx ul li{
+        text-decoration: none;
+        padding-right: 10px;
+        color: white;
+    }
+
+   
 
 
 }
