@@ -117,7 +117,9 @@ row,
     color: white;
 }
 /* section demo */
-
+.demo img{
+    max-width: 100%;
+}
 
 
 /* section strategy */
