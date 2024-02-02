@@ -146,6 +146,14 @@ row,
     line-height: 1.5;
 }
 
+.col i{
+    color: var(--colore-primario);
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
 .app-store{
     color: white;
     background-color: var(--colore-primario);
