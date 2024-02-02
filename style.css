@@ -102,8 +102,6 @@ row,
     display: none;  
 }
 
-
-
 .topbar-dx{
     display: flex;   
 }
@@ -122,8 +120,9 @@ row,
     max-width: 100%;
 }
 
-
-
+.demo .col{
+    background-color: var(--colore-terziario);
+}
 
 /* section strategy */
 .strategy{
@@ -182,26 +181,25 @@ footer{
     }
 
    .demo .col:first-child{
-    width: calc(100% / 1.5);
+    width: calc(100% * 2/3);
    }
 
    .demo .col:first-child .text-demo{
     width: 100%;
-    height: 50%;
+
    }
 
    .demo .col:first-child .img-demo{
    max-width: 100%;
-   object-fit: cover;
+   }
+
+   .demo img{
+    width: 100%;
    }
 
    /* .img-demo img{
     object-fit: cover;
    } */
-
-   
-
-
 
    .testimonials .card .row{
     flex-wrap: nowrap;
@@ -239,6 +237,10 @@ footer{
     .container{
         width: 1140px;
     }
+
+    .demo .col:first-child{
+        display: flex;
+       }
 
     .strategic .col{
         width: 50%;
