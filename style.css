@@ -117,9 +117,12 @@ row,
     color: white;
 }
 /* section demo */
+
 .demo img{
     max-width: 100%;
 }
+
+
 
 
 /* section strategy */
@@ -182,6 +185,24 @@ footer{
     width: calc(100% / 1.5);
    }
 
+   .demo .col:first-child .text-demo{
+    width: 100%;
+    height: 50%;
+   }
+
+   .demo .col:first-child .img-demo{
+   max-width: 100%;
+   object-fit: cover;
+   }
+
+   /* .img-demo img{
+    object-fit: cover;
+   } */
+
+   
+
+
+
    .testimonials .card .row{
     flex-wrap: nowrap;
   }
@@ -243,7 +264,11 @@ footer{
     .topbar  .topbar-dx ul li{
         text-decoration: none;
         padding-right: 10px;
+    }
+
+    .topbar .topbar-dx a{
         color: white;
+        text-decoration: none;
     }
 
    
