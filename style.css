@@ -24,7 +24,7 @@ body{
 }
 
 header{
-
+    background-color: var(--colore-primario);
 }
 
 .container{
@@ -85,7 +85,7 @@ row,
 /* section topbar */
 .topbar{
     height: 75px;
-    background-color: var(--colore-primario);
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,9 +101,7 @@ row,
 }
 
 /* section demo */
-.jumbotron{
-    /* height: 2150px; */
-}
+
 
 
 /* section strategy */
@@ -133,18 +131,18 @@ row,
 
 /* footer */
 footer{
-    height: 850px;
+    /* height: 850px; */
 }
 
 /* section top-footer */
 .top-footer{
-    height: 625px;
+    /* height: 625px; */
     background-color: var(--colore-secondario);
 }
 
 /* section bottom-footer */
 .bottom-footer{
-    height: 225px;
+    /* height: 225px; */
     background-color: var(--colore-footer);
 }
 
@@ -195,9 +193,9 @@ footer{
 
 /* versione desktop */
 @media screen and (min-width: 1200px) {
-    .topbar .topbar-dx ul{    
+    /* .topbar .topbar-dx ul{    
         display: block;  
-    }
+    } */
 
     .container{
         width: 1140px;
