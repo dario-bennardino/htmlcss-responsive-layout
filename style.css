@@ -10,7 +10,11 @@
     --colore-secondario: #9792E5;  
     --colore-terziario: #B6DDFF;
     --colore-footer: #333333;   
-    --colore-testo-demo:#5A6E7F;    
+    --colore-testo-demo:#5A6E7F;   
+    --colore-p-benefits:#737373; 
+    --colore-giallo-footer:#FDC15F;
+    --colore-grigio-footer:#C6C3EF;
+    
 }
 /* Fine root colori */
 
@@ -29,6 +33,7 @@ header{
     height: 75px;
     display: flex;
     align-items: center;
+    /* position: fixed; */
 }
 
 .container{
@@ -239,7 +244,7 @@ row,
     max-width: 200px;
     height: 200px;
     border-radius: 50%;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 
@@ -251,28 +256,115 @@ row,
 
 .benefits h2{
     color: white;
+    padding: 30px 0;
+}
+
+.benefits .col{
+    background-color: white;
+    text-align: start;
+    padding: 30px 15px;
+    margin: 5px;
+}
+
+.benefits h1{
+    color: var(--colore-secondario);
+    font-size: 3rem;
+}
+
+.benefits h3{
+    color: var(--colore-secondario);
+    padding-top: 15px;
+}
+
+.benefits p{
+    color: var(--colore-p-benefits);
+}
+
+.botton-benefits{
+    color: white;
+    background-color: var(--colore-secondario);
+    padding: 5px 60px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
 }
 
 /* section about us */
-.about-us{
 
+.aboutus h1{
+    color: var(--colore-secondario);
+    font-size: 3rem;
+    margin-top: 20px;   
+}
+
+.aboutus h2{
+    color: var(--colore-secondario);
+}
+
+.botton-aboutus{
+    color: white;
+    background-color: var(--colore-secondario);
+    width: 150px;
+    padding: 6px;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.aboutus img{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* footer */
 footer{
-    /* height: 850px; */
 }
 
 /* section top-footer */
 .top-footer{
-    /* height: 625px; */
     background-color: var(--colore-secondario);
 }
 
+.top-footer h3{
+    color: var(--colore-grigio-footer);
+    padding: 15px 0;
+} 
+
+.top-footer h1{
+    color: var(--colore-giallo-footer);
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+.top-footer h2{
+    color: white;
+}
+
+.top-footer p{
+    color: white;
+}
+
+.botton-top-footer{
+    color: var(--colore-secondario);
+    background-color: white;
+    width: 150px;
+    padding: 15px 0;
+    /* border-radius: 15px; */
+    margin: 15px 0;
+    margin-left: calc(50% - 75px);
+}
+
+
 /* section bottom-footer */
 .bottom-footer{
-    /* height: 225px; */
     background-color: var(--colore-footer);
+    color: white;
+}
+
+.colored-word{
+    color: var(--colore-secondario);
 }
 
 /* Soluzione responsive */
@@ -339,7 +431,8 @@ footer{
   /* section benefits */
 
   .benefits .col{
-    width: 50%;
+    width: calc(50% - 15px);
+    margin: 5px auto;
   }
 
   /* section aboutus */
@@ -369,7 +462,7 @@ footer{
 
     /* section topbar desktop */
 
-    
+
 
    /* section demo desktop */
 
@@ -380,7 +473,7 @@ footer{
     /* section benefits desktop */
 
     .benefits .col{
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 15px);
     }
 
     /* section benefits desktop */
