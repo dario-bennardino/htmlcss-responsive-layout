@@ -33,7 +33,9 @@ header{
     height: 75px;
     display: flex;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .container{
@@ -45,13 +47,13 @@ header{
     border: 1px solid black;
 }
 
-header,
+/* header,
 .container,
 row,
 .col{
     border: 1px solid black;
     min-height: 50px;
-}
+} */
 
 .d-flex{
     display: flex;
@@ -97,6 +99,7 @@ row,
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 75px;
   }
 
   p{
@@ -416,6 +419,7 @@ footer{
 
   .testimonials .col .text-testimonials{
     width: calc(100% - 200px);
+    margin: auto 0;
   }
 
   .testimonials .col{
